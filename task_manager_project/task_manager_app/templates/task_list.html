@@ -1,0 +1,25 @@
+{% extends 'base_.html' %}
+
+{% block content %}
+<a href='{% url 'task_crt' %}' class="btn"> <button> Создать задачу </button></a>
+    {% for tsk in tasks_ %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title"> {{ tsk.task }}</h4>
+                <h6 class="card-subtitle mb-2 text-muted"> Статус выполнения задачи: {{ tsk.task_is_Done }}</h6>
+                <p class="card-text">Номер задачи: {{ tsk.id }} </p>
+                <p class="card-text">Дата/время создания: {{ tsk.task_create }} </p>
+                <p class="card-text">Дата/время завершения: {{ tsk.task_completed }} </p>
+                <p class="card-text">Плановая дата: {{ tsk.task_plan }} </p>
+                <p class="card-text">Автор задачи: {{ tsk.task_author }} </p>
+                <p class="card-text">Исполнитель задачи: {{ tsk.task_implementer }} </p>
+                <p class="card-text">Вложение: {{ tsk.task_attach }} </p>
+                <p class="card-text">Входит в проект: {{ tsk.task_project }} </p>
+                <p class="card-text">Входитв спринт: {{ tsk.task_sprint }} </p>
+                <a href='{% url 'task_edit' tsk.id %}' class="btn"> <button> Редактировать задачу </button></a>
+                <a href='{% url 'task_delete' tsk.id %}' class="btn"> <button> Удалить задачу </button></a>
+            </div>
+        </div>
+        
+    {% endfor %}
+{% endblock content %}

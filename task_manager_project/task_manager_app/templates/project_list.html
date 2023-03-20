@@ -1,0 +1,19 @@
+{% extends 'base_.html' %}
+
+{% block content %}
+<a href='{% url 'project_crt' %}' class="btn"> <button> Создать задачу </button></a>
+
+    {% for tsk in projects_ %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title"> {{ tsk.project_name }}</h4>
+                <h4 class="card-subtitle mb-2 text-muted"> Описание проекта: {{ tsk.project_description }}</h4>
+                <p class="card-text">Руководитель проекта: {{ tsk.project_head }} </p>
+                
+                <a href='{% url 'project_edit' tsk.id %}' class="btn"> <button> Редактировать проект </button></a>
+                <a href='{% url 'project_delete' tsk.id %}' class="btn"> <button> Удалить проект </button></a>
+            </div>
+        </div>
+        
+    {% endfor %}
+{% endblock content %}

@@ -1,0 +1,677 @@
+D:\Python\Task_Manager\task_manager_project\task_manager_app\models.py changed, reloading.
+INFO 2023-03-11 19:26:26,814 autoreload 19396 19340 Watching for file changes with StatReloader
+INFO 2023-03-11 19:26:50,303 basehttp 19396 26620 "GET /admin/task_manager_app/taskmodel/6/change/ HTTP/1.1" 200 19480
+INFO 2023-03-11 19:26:50,444 basehttp 19396 26620 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 19:26:57,688 basehttp 19396 26620 "POST /admin/task_manager_app/taskmodel/6/change/ HTTP/1.1" 302 0
+INFO 2023-03-11 19:26:57,840 basehttp 19396 26620 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 9246
+INFO 2023-03-11 19:26:57,956 basehttp 19396 26620 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 19:26:59,415 basehttp 19396 26620 "GET /admin/task_manager_app/taskmodel/6/change/ HTTP/1.1" 200 19439
+INFO 2023-03-11 19:26:59,522 basehttp 19396 26620 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 19:27:05,784 basehttp 19396 26620 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-11 19:27:05,910 basehttp 19396 26620 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 19:27:55,037 autoreload 21996 25332 Watching for file changes with StatReloader
+INFO 2023-03-11 19:29:06,559 basehttp 21996 7024 "GET /tasks/ HTTP/1.1" 200 8068
+INFO 2023-03-11 19:29:06,700 basehttp 21996 14992 "GET /tasks/ HTTP/1.1" 200 8068
+INFO 2023-03-11 19:29:12,390 basehttp 21996 14992 "GET /task/6/edit HTTP/1.1" 200 4080
+INFO 2023-03-11 19:29:23,740 basehttp 21996 14992 "POST /task/6/edit HTTP/1.1" 200 4130
+INFO 2023-03-11 19:29:51,749 basehttp 21996 14992 "GET /task/6/edit HTTP/1.1" 200 4080
+INFO 2023-03-11 19:55:36,296 autoreload 21996 25332 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-11 19:56:34,335 autoreload 7364 16172 Watching for file changes with StatReloader
+INFO 2023-03-11 19:56:57,756 basehttp 7364 20580 "GET /tasks/ HTTP/1.1" 200 8068
+INFO 2023-03-11 19:57:06,511 basehttp 7364 20580 "GET /task/6/edit HTTP/1.1" 200 4080
+INFO 2023-03-11 19:57:10,443 basehttp 7364 20580 "POST /task/6/edit HTTP/1.1" 302 0
+INFO 2023-03-11 19:57:10,678 basehttp 7364 20580 "GET /tasks/ HTTP/1.1" 200 8088
+INFO 2023-03-11 19:58:08,186 autoreload 25992 26508 Watching for file changes with StatReloader
+INFO 2023-03-11 19:58:38,002 basehttp 25992 24072 "GET /admin/ HTTP/1.1" 200 9375
+INFO 2023-03-11 19:58:39,643 basehttp 25992 24072 "GET /admin/ HTTP/1.1" 200 9375
+INFO 2023-03-11 19:58:47,074 basehttp 25992 24072 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-11 19:58:48,557 basehttp 25992 24072 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-11 19:58:48,711 basehttp 25992 24072 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-11 19:58:48,755 basehttp 25992 24072 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-03-11 19:58:58,235 basehttp 25992 24072 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2379
+INFO 2023-03-11 20:01:57,042 autoreload 25992 26508 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-11 20:02:01,232 autoreload 12016 5304 Watching for file changes with StatReloader
+INFO 2023-03-11 20:02:04,681 basehttp 12016 26544 "GET /tasks/ HTTP/1.1" 200 8088
+INFO 2023-03-11 20:02:08,381 basehttp 12016 26544 "GET /tasks/ HTTP/1.1" 200 8088
+INFO 2023-03-11 20:02:11,490 basehttp 12016 26544 "GET /task/6/edit HTTP/1.1" 200 3967
+WARNING 2023-03-11 20:02:14,281 log 12016 26544 Forbidden (CSRF token missing.): /task/6/edit
+WARNING 2023-03-11 20:02:14,281 basehttp 12016 26544 "POST /task/6/edit HTTP/1.1" 403 2506
+WARNING 2023-03-11 20:03:24,836 log 12016 26544 Forbidden (CSRF token missing.): /task/6/edit
+WARNING 2023-03-11 20:03:24,837 basehttp 12016 26544 "POST /task/6/edit HTTP/1.1" 403 2506
+INFO 2023-03-11 20:03:34,913 autoreload 16036 14960 Watching for file changes with StatReloader
+WARNING 2023-03-11 20:03:40,239 log 16036 17876 Forbidden (CSRF token missing.): /task/6/edit
+WARNING 2023-03-11 20:03:40,241 basehttp 16036 17876 "POST /task/6/edit HTTP/1.1" 403 2506
+INFO 2023-03-11 20:03:50,058 basehttp 16036 17876 "GET /tasks/ HTTP/1.1" 200 8088
+INFO 2023-03-11 20:03:52,632 basehttp 16036 17876 "GET /task/6/edit HTTP/1.1" 200 4088
+INFO 2023-03-11 20:03:56,023 basehttp 16036 17876 "POST /task/6/edit HTTP/1.1" 302 0
+INFO 2023-03-11 20:03:56,128 basehttp 16036 17876 "GET /tasks/ HTTP/1.1" 200 8068
+INFO 2023-03-11 20:06:00,727 autoreload 16036 14960 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-11 20:06:04,931 autoreload 23500 18180 Watching for file changes with StatReloader
+INFO 2023-03-11 20:06:14,367 basehttp 23500 19548 "GET /task/6/edit HTTP/1.1" 200 4080
+INFO 2023-03-11 20:06:18,508 basehttp 23500 19548 "POST /task/6/edit HTTP/1.1" 302 0
+INFO 2023-03-11 20:06:18,644 basehttp 23500 19548 "GET /tasks/ HTTP/1.1" 200 8088
+INFO 2023-03-11 20:07:18,406 autoreload 23500 18180 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-11 20:07:22,981 autoreload 22740 11536 Watching for file changes with StatReloader
+INFO 2023-03-11 20:07:39,024 basehttp 22740 25128 "GET /task/6/edit HTTP/1.1" 200 4088
+INFO 2023-03-11 20:07:44,003 basehttp 22740 25128 "POST /task/6/edit HTTP/1.1" 302 0
+INFO 2023-03-11 20:07:44,203 basehttp 22740 25128 "GET /tasks/ HTTP/1.1" 200 8068
+INFO 2023-03-11 20:08:28,276 autoreload 22740 11536 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-11 20:08:32,310 autoreload 21700 25640 Watching for file changes with StatReloader
+INFO 2023-03-11 20:22:52,385 basehttp 21700 25796 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-03-11 20:22:52,628 basehttp 21700 25796 "GET /admin/ HTTP/1.1" 200 9375
+INFO 2023-03-11 20:36:13,482 basehttp 21700 22704 "GET /admin/task_manager_app/taskmodel/6/change/ HTTP/1.1" 200 19439
+INFO 2023-03-11 20:36:13,673 basehttp 21700 22704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 20:36:18,894 basehttp 21700 21792 "GET /admin/ HTTP/1.1" 200 9375
+INFO 2023-03-11 20:38:19,021 autoreload 24188 22292 Watching for file changes with StatReloader
+INFO 2023-03-11 20:39:56,876 autoreload 22908 21176 Watching for file changes with StatReloader
+INFO 2023-03-11 20:40:00,241 basehttp 22908 20628 "GET /admin/task_manager_app/sprintmodel/ HTTP/1.1" 200 8313
+INFO 2023-03-11 20:40:00,383 basehttp 22908 20628 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-11 20:40:02,185 basehttp 22908 20628 "GET /admin/task_manager_app/sprintmodel/3/change/ HTTP/1.1" 200 12103
+INFO 2023-03-11 20:40:02,302 basehttp 22908 20628 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:51:20,752 autoreload 20352 17552 Watching for file changes with StatReloader
+INFO 2023-03-12 12:55:09,665 autoreload 23960 15076 Watching for file changes with StatReloader
+INFO 2023-03-12 12:55:17,926 basehttp 23960 21324 "GET /tasks/ HTTP/1.1" 200 3919
+INFO 2023-03-12 12:55:40,989 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:55:41,159 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:55:48,490 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:55:48,601 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:55:55,625 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/1/change/ HTTP/1.1" 200 19375
+INFO 2023-03-12 12:55:55,738 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:55:56,004 basehttp 23960 21324 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-03-12 12:55:59,130 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:56:00,389 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/2/change/ HTTP/1.1" 200 19451
+INFO 2023-03-12 12:56:00,492 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:56:02,696 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:56:04,659 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/4/change/ HTTP/1.1" 200 19535
+INFO 2023-03-12 12:56:04,856 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:56:07,216 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:56:09,161 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/6/change/ HTTP/1.1" 200 19439
+INFO 2023-03-12 12:56:09,324 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:56:11,395 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:56:12,542 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/8/change/ HTTP/1.1" 200 19543
+INFO 2023-03-12 12:56:12,652 basehttp 23960 21324 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-12 12:56:15,292 basehttp 23960 21324 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 8994
+INFO 2023-03-12 12:56:18,133 basehttp 23960 21324 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-12 12:56:19,651 basehttp 23960 21324 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-12 12:56:19,781 basehttp 23960 21324 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-12 12:56:31,345 basehttp 23960 21324 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-03-12 12:56:31,469 basehttp 23960 21324 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-12 12:56:36,268 basehttp 23960 21324 "GET /tasks/ HTTP/1.1" 200 5409
+INFO 2023-03-12 13:10:22,017 autoreload 23960 15076 D:\Python\Task_Manager\task_manager_project\task_manager_app\views.py changed, reloading.
+INFO 2023-03-12 13:10:26,593 autoreload 11632 27036 Watching for file changes with StatReloader
+ERROR 2023-03-12 13:11:04,134 log 11632 21124 Internal Server Error: /iommi_menu/
+Traceback (most recent call last):
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'MenuPage' object has no attribute 'get'
+ERROR 2023-03-12 13:11:04,137 basehttp 11632 21124 "GET /iommi_menu/ HTTP/1.1" 500 68415
+WARNING 2023-03-12 13:11:04,550 log 11632 21124 Not Found: /favicon.ico
+WARNING 2023-03-12 13:11:04,551 basehttp 11632 21124 "GET /favicon.ico HTTP/1.1" 404 4836
+INFO 2023-03-12 13:35:27,689 autoreload 11632 27036 D:\Python\Task_Manager\task_manager_project\task_manager_project\settings.py changed, reloading.
+INFO 2023-03-19 21:11:10,637 autoreload 9500 10568 Watching for file changes with StatReloader
+INFO 2023-03-19 21:11:21,214 basehttp 9500 26484 "GET /tasks_all/ HTTP/1.1" 200 16683
+WARNING 2023-03-19 21:11:21,297 basehttp 9500 26484 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:11:24,435 basehttp 9500 21744 "GET /task/10/edit HTTP/1.1" 200 5994
+WARNING 2023-03-19 21:11:24,555 basehttp 9500 21744 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:11:40,455 basehttp 9500 22864 "POST /task/10/edit HTTP/1.1" 302 0
+INFO 2023-03-19 21:11:40,668 basehttp 9500 22864 "GET /tasks/ HTTP/1.1" 200 4260
+WARNING 2023-03-19 21:11:40,783 basehttp 9500 22864 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:21:10,193 basehttp 9500 22928 "HEAD / HTTP/1.1" 302 0
+INFO 2023-03-19 21:21:15,559 basehttp 9500 33212 "HEAD /tasks_all/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:21:15,576 basehttp 9500 31396 "HEAD /projects/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:21:15,590 basehttp 9500 23404 "HEAD /sprints/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:21:39,824 basehttp 9500 23476 "HEAD / HTTP/1.1" 302 0
+INFO 2023-03-19 21:38:19,926 autoreload 9500 10568 D:\Python\Task_Manager\task_manager_project\task_manager_app\views.py changed, reloading.
+INFO 2023-03-19 21:38:25,711 autoreload 23204 34776 Watching for file changes with StatReloader
+INFO 2023-03-19 21:38:52,343 autoreload 23204 34776 D:\Python\Task_Manager\task_manager_project\task_manager_app\models.py changed, reloading.
+INFO 2023-03-19 21:38:56,409 autoreload 17572 17896 Watching for file changes with StatReloader
+INFO 2023-03-19 21:39:22,787 autoreload 34312 34368 Watching for file changes with StatReloader
+INFO 2023-03-19 21:39:42,621 basehttp 34312 15064 "HEAD / HTTP/1.1" 302 0
+INFO 2023-03-19 21:39:45,870 basehttp 34312 18856 "HEAD / HTTP/1.1" 302 0
+INFO 2023-03-19 21:39:45,880 basehttp 34312 24960 "HEAD /tasks_all/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:39:45,892 basehttp 34312 12212 "HEAD /projects/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:39:45,903 basehttp 34312 16884 "HEAD /sprints/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:39:45,917 basehttp 34312 29860 "HEAD /tasks/ HTTP/1.1" 302 0
+WARNING 2023-03-19 21:39:46,000 log 34312 27488 Not Found: /a
+WARNING 2023-03-19 21:39:46,003 basehttp 34312 27488 "HEAD /a HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,009 basehttp 34312 27488 - Broken pipe from ('127.0.0.1', 64087)
+WARNING 2023-03-19 21:39:46,027 log 34312 13960 Not Found: /c
+WARNING 2023-03-19 21:39:46,029 basehttp 34312 13960 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,032 basehttp 34312 13960 - Broken pipe from ('127.0.0.1', 64088)
+WARNING 2023-03-19 21:39:46,054 log 34312 22960 Not Found: /c
+WARNING 2023-03-19 21:39:46,057 basehttp 34312 22960 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,059 basehttp 34312 22960 - Broken pipe from ('127.0.0.1', 64089)
+WARNING 2023-03-19 21:39:46,079 log 34312 29088 Not Found: /o
+WARNING 2023-03-19 21:39:46,081 basehttp 34312 29088 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,085 basehttp 34312 29088 - Broken pipe from ('127.0.0.1', 64090)
+WARNING 2023-03-19 21:39:46,112 log 34312 17808 Not Found: /u
+WARNING 2023-03-19 21:39:46,114 basehttp 34312 17808 "HEAD /u HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,119 basehttp 34312 17808 - Broken pipe from ('127.0.0.1', 64091)
+WARNING 2023-03-19 21:39:46,142 log 34312 31908 Not Found: /n
+WARNING 2023-03-19 21:39:46,143 basehttp 34312 31908 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,147 basehttp 34312 31908 - Broken pipe from ('127.0.0.1', 64092)
+WARNING 2023-03-19 21:39:46,170 log 34312 27332 Not Found: /t
+WARNING 2023-03-19 21:39:46,173 basehttp 34312 27332 "HEAD /t HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,176 basehttp 34312 27332 - Broken pipe from ('127.0.0.1', 64093)
+WARNING 2023-03-19 21:39:46,198 log 34312 32948 Not Found: /s
+WARNING 2023-03-19 21:39:46,200 basehttp 34312 32948 "HEAD /s HTTP/1.1" 404 4775
+INFO 2023-03-19 21:39:46,204 basehttp 34312 32948 - Broken pipe from ('127.0.0.1', 64094)
+INFO 2023-03-19 21:39:46,216 basehttp 34312 10300 "HEAD // HTTP/1.1" 302 0
+INFO 2023-03-19 21:41:18,668 autoreload 33364 30108 Watching for file changes with StatReloader
+INFO 2023-03-19 21:41:23,542 basehttp 33364 28580 "HEAD / HTTP/1.1" 302 0
+WARNING 2023-03-19 21:41:26,769 log 33364 15624 Not Found: /a
+WARNING 2023-03-19 21:41:26,771 basehttp 33364 15624 "HEAD /a HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,773 basehttp 33364 15624 - Broken pipe from ('127.0.0.1', 63307)
+WARNING 2023-03-19 21:41:26,795 log 33364 33320 Not Found: /c
+WARNING 2023-03-19 21:41:26,797 basehttp 33364 33320 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,800 basehttp 33364 33320 - Broken pipe from ('127.0.0.1', 63308)
+WARNING 2023-03-19 21:41:26,821 log 33364 34080 Not Found: /c
+WARNING 2023-03-19 21:41:26,823 basehttp 33364 34080 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,827 basehttp 33364 34080 - Broken pipe from ('127.0.0.1', 63309)
+WARNING 2023-03-19 21:41:26,859 log 33364 31204 Not Found: /o
+WARNING 2023-03-19 21:41:26,861 basehttp 33364 31204 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,864 basehttp 33364 31204 - Broken pipe from ('127.0.0.1', 63310)
+WARNING 2023-03-19 21:41:26,891 log 33364 18288 Not Found: /u
+WARNING 2023-03-19 21:41:26,892 basehttp 33364 18288 "HEAD /u HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,895 basehttp 33364 18288 - Broken pipe from ('127.0.0.1', 63311)
+WARNING 2023-03-19 21:41:26,915 log 33364 10880 Not Found: /n
+WARNING 2023-03-19 21:41:26,917 basehttp 33364 10880 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,919 basehttp 33364 10880 - Broken pipe from ('127.0.0.1', 63312)
+WARNING 2023-03-19 21:41:26,940 log 33364 20264 Not Found: /t
+WARNING 2023-03-19 21:41:26,942 basehttp 33364 20264 "HEAD /t HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,944 basehttp 33364 20264 - Broken pipe from ('127.0.0.1', 63313)
+WARNING 2023-03-19 21:41:26,965 log 33364 19660 Not Found: /s
+WARNING 2023-03-19 21:41:26,967 basehttp 33364 19660 "HEAD /s HTTP/1.1" 404 4775
+INFO 2023-03-19 21:41:26,969 basehttp 33364 19660 - Broken pipe from ('127.0.0.1', 63314)
+INFO 2023-03-19 21:41:26,979 basehttp 33364 32736 "HEAD // HTTP/1.1" 302 0
+INFO 2023-03-19 21:41:52,529 autoreload 34104 27436 Watching for file changes with StatReloader
+INFO 2023-03-19 21:41:57,038 basehttp 34104 18640 "HEAD / HTTP/1.1" 302 0
+WARNING 2023-03-19 21:42:00,326 log 34104 33844 Not Found: /a
+WARNING 2023-03-19 21:42:00,328 basehttp 34104 33844 "HEAD /a HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,330 basehttp 34104 33844 - Broken pipe from ('127.0.0.1', 57170)
+WARNING 2023-03-19 21:42:00,350 log 34104 19300 Not Found: /c
+WARNING 2023-03-19 21:42:00,352 basehttp 34104 19300 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,354 basehttp 34104 19300 - Broken pipe from ('127.0.0.1', 57171)
+WARNING 2023-03-19 21:42:00,377 log 34104 23744 Not Found: /c
+WARNING 2023-03-19 21:42:00,378 basehttp 34104 23744 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,380 basehttp 34104 23744 - Broken pipe from ('127.0.0.1', 57172)
+WARNING 2023-03-19 21:42:00,401 log 34104 15884 Not Found: /o
+WARNING 2023-03-19 21:42:00,403 basehttp 34104 15884 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,406 basehttp 34104 15884 - Broken pipe from ('127.0.0.1', 57173)
+WARNING 2023-03-19 21:42:00,427 log 34104 16108 Not Found: /u
+WARNING 2023-03-19 21:42:00,428 basehttp 34104 16108 "HEAD /u HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,431 basehttp 34104 16108 - Broken pipe from ('127.0.0.1', 57174)
+WARNING 2023-03-19 21:42:00,456 log 34104 26512 Not Found: /n
+WARNING 2023-03-19 21:42:00,458 basehttp 34104 26512 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,460 basehttp 34104 26512 - Broken pipe from ('127.0.0.1', 57175)
+WARNING 2023-03-19 21:42:00,484 log 34104 30060 Not Found: /t
+WARNING 2023-03-19 21:42:00,487 basehttp 34104 30060 "HEAD /t HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,489 basehttp 34104 30060 - Broken pipe from ('127.0.0.1', 57176)
+WARNING 2023-03-19 21:42:00,516 log 34104 20764 Not Found: /s
+WARNING 2023-03-19 21:42:00,517 basehttp 34104 20764 "HEAD /s HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,520 basehttp 34104 20764 - Broken pipe from ('127.0.0.1', 57177)
+INFO 2023-03-19 21:42:00,532 basehttp 34104 32744 "HEAD // HTTP/1.1" 302 0
+WARNING 2023-03-19 21:42:00,560 log 34104 32612 Not Found: /l
+WARNING 2023-03-19 21:42:00,561 basehttp 34104 32612 "HEAD /l HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,565 basehttp 34104 32612 - Broken pipe from ('127.0.0.1', 57179)
+WARNING 2023-03-19 21:42:00,585 log 34104 29092 Not Found: /o
+WARNING 2023-03-19 21:42:00,587 basehttp 34104 29092 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,590 basehttp 34104 29092 - Broken pipe from ('127.0.0.1', 57180)
+WARNING 2023-03-19 21:42:00,610 log 34104 9496 Not Found: /g
+WARNING 2023-03-19 21:42:00,611 basehttp 34104 9496 "HEAD /g HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,615 basehttp 34104 9496 - Broken pipe from ('127.0.0.1', 57181)
+WARNING 2023-03-19 21:42:00,635 log 34104 6936 Not Found: /i
+WARNING 2023-03-19 21:42:00,637 basehttp 34104 6936 "HEAD /i HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,641 basehttp 34104 6936 - Broken pipe from ('127.0.0.1', 57182)
+WARNING 2023-03-19 21:42:00,662 log 34104 11152 Not Found: /n
+WARNING 2023-03-19 21:42:00,663 basehttp 34104 11152 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:42:00,666 basehttp 34104 11152 - Broken pipe from ('127.0.0.1', 57183)
+INFO 2023-03-19 21:42:00,676 basehttp 34104 30640 "HEAD // HTTP/1.1" 302 0
+INFO 2023-03-19 21:42:10,569 basehttp 34104 18340 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-19 21:42:12,260 basehttp 34104 29428 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-19 21:42:22,752 basehttp 34104 32764 "GET / HTTP/1.1" 302 0
+INFO 2023-03-19 21:42:22,936 basehttp 34104 32764 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-19 21:42:23,044 basehttp 34104 32764 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:42:57,909 autoreload 32240 14824 Watching for file changes with StatReloader
+INFO 2023-03-19 21:43:14,359 basehttp 32240 13768 "HEAD / HTTP/1.1" 302 0
+WARNING 2023-03-19 21:43:17,532 log 32240 33296 Not Found: /a
+WARNING 2023-03-19 21:43:17,533 basehttp 32240 33296 "HEAD /a HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,537 basehttp 32240 33296 - Broken pipe from ('127.0.0.1', 55042)
+WARNING 2023-03-19 21:43:17,559 log 32240 21100 Not Found: /c
+WARNING 2023-03-19 21:43:17,560 basehttp 32240 21100 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,564 basehttp 32240 21100 - Broken pipe from ('127.0.0.1', 55043)
+WARNING 2023-03-19 21:43:17,585 log 32240 20632 Not Found: /c
+WARNING 2023-03-19 21:43:17,587 basehttp 32240 20632 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,590 basehttp 32240 20632 - Broken pipe from ('127.0.0.1', 55044)
+WARNING 2023-03-19 21:43:17,613 log 32240 24084 Not Found: /o
+WARNING 2023-03-19 21:43:17,615 basehttp 32240 24084 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,617 basehttp 32240 24084 - Broken pipe from ('127.0.0.1', 55045)
+WARNING 2023-03-19 21:43:17,639 log 32240 29376 Not Found: /u
+WARNING 2023-03-19 21:43:17,641 basehttp 32240 29376 "HEAD /u HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,645 basehttp 32240 29376 - Broken pipe from ('127.0.0.1', 55046)
+WARNING 2023-03-19 21:43:17,665 log 32240 15088 Not Found: /n
+WARNING 2023-03-19 21:43:17,667 basehttp 32240 15088 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,669 basehttp 32240 15088 - Broken pipe from ('127.0.0.1', 55047)
+WARNING 2023-03-19 21:43:17,690 log 32240 15892 Not Found: /t
+WARNING 2023-03-19 21:43:17,692 basehttp 32240 15892 "HEAD /t HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,695 basehttp 32240 15892 - Broken pipe from ('127.0.0.1', 55048)
+WARNING 2023-03-19 21:43:17,716 log 32240 22836 Not Found: /s
+WARNING 2023-03-19 21:43:17,717 basehttp 32240 22836 "HEAD /s HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,720 basehttp 32240 22836 - Broken pipe from ('127.0.0.1', 55049)
+INFO 2023-03-19 21:43:17,732 basehttp 32240 22036 "HEAD // HTTP/1.1" 302 0
+WARNING 2023-03-19 21:43:17,755 log 32240 27200 Not Found: /l
+WARNING 2023-03-19 21:43:17,758 basehttp 32240 27200 "HEAD /l HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,760 basehttp 32240 27200 - Broken pipe from ('127.0.0.1', 55051)
+WARNING 2023-03-19 21:43:17,781 log 32240 31664 Not Found: /o
+WARNING 2023-03-19 21:43:17,783 basehttp 32240 31664 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,785 basehttp 32240 31664 - Broken pipe from ('127.0.0.1', 55052)
+WARNING 2023-03-19 21:43:17,805 log 32240 18132 Not Found: /g
+WARNING 2023-03-19 21:43:17,808 basehttp 32240 18132 "HEAD /g HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,810 basehttp 32240 18132 - Broken pipe from ('127.0.0.1', 55053)
+WARNING 2023-03-19 21:43:17,830 log 32240 32284 Not Found: /i
+WARNING 2023-03-19 21:43:17,833 basehttp 32240 32284 "HEAD /i HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,835 basehttp 32240 32284 - Broken pipe from ('127.0.0.1', 55054)
+WARNING 2023-03-19 21:43:17,856 log 32240 28908 Not Found: /n
+WARNING 2023-03-19 21:43:17,858 basehttp 32240 28908 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:43:17,861 basehttp 32240 28908 - Broken pipe from ('127.0.0.1', 55055)
+INFO 2023-03-19 21:43:17,870 basehttp 32240 34120 "HEAD // HTTP/1.1" 302 0
+INFO 2023-03-19 21:45:26,520 basehttp 32240 30640 "GET /accounts/login/ HTTP/1.1" 200 3675
+WARNING 2023-03-19 21:45:26,590 basehttp 32240 30640 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:46:46,726 basehttp 32240 23900 "HEAD / HTTP/1.1" 302 0
+WARNING 2023-03-19 21:46:50,171 log 32240 33728 Not Found: /a
+WARNING 2023-03-19 21:46:50,172 basehttp 32240 33728 "HEAD /a HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,175 basehttp 32240 33728 - Broken pipe from ('127.0.0.1', 63884)
+WARNING 2023-03-19 21:46:50,197 log 32240 32640 Not Found: /c
+WARNING 2023-03-19 21:46:50,199 basehttp 32240 32640 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,201 basehttp 32240 32640 - Broken pipe from ('127.0.0.1', 63885)
+WARNING 2023-03-19 21:46:50,222 log 32240 33952 Not Found: /c
+WARNING 2023-03-19 21:46:50,224 basehttp 32240 33952 "HEAD /c HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,226 basehttp 32240 33952 - Broken pipe from ('127.0.0.1', 63886)
+WARNING 2023-03-19 21:46:50,252 log 32240 29676 Not Found: /o
+WARNING 2023-03-19 21:46:50,255 basehttp 32240 29676 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,258 basehttp 32240 29676 - Broken pipe from ('127.0.0.1', 63887)
+WARNING 2023-03-19 21:46:50,288 log 32240 9980 Not Found: /u
+WARNING 2023-03-19 21:46:50,292 basehttp 32240 9980 "HEAD /u HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,294 basehttp 32240 9980 - Broken pipe from ('127.0.0.1', 63888)
+WARNING 2023-03-19 21:46:50,323 log 32240 33124 Not Found: /n
+WARNING 2023-03-19 21:46:50,324 basehttp 32240 33124 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,326 basehttp 32240 33124 - Broken pipe from ('127.0.0.1', 63889)
+WARNING 2023-03-19 21:46:50,346 log 32240 20180 Not Found: /t
+WARNING 2023-03-19 21:46:50,347 basehttp 32240 20180 "HEAD /t HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,350 basehttp 32240 20180 - Broken pipe from ('127.0.0.1', 63890)
+WARNING 2023-03-19 21:46:50,372 log 32240 16696 Not Found: /s
+WARNING 2023-03-19 21:46:50,374 basehttp 32240 16696 "HEAD /s HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,376 basehttp 32240 16696 - Broken pipe from ('127.0.0.1', 63891)
+INFO 2023-03-19 21:46:50,386 basehttp 32240 34704 "HEAD // HTTP/1.1" 302 0
+WARNING 2023-03-19 21:46:50,409 log 32240 20136 Not Found: /l
+WARNING 2023-03-19 21:46:50,411 basehttp 32240 20136 "HEAD /l HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,413 basehttp 32240 20136 - Broken pipe from ('127.0.0.1', 63893)
+WARNING 2023-03-19 21:46:50,434 log 32240 12800 Not Found: /o
+WARNING 2023-03-19 21:46:50,436 basehttp 32240 12800 "HEAD /o HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,438 basehttp 32240 12800 - Broken pipe from ('127.0.0.1', 63894)
+WARNING 2023-03-19 21:46:50,459 log 32240 13000 Not Found: /g
+WARNING 2023-03-19 21:46:50,461 basehttp 32240 13000 "HEAD /g HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,464 basehttp 32240 13000 - Broken pipe from ('127.0.0.1', 63895)
+WARNING 2023-03-19 21:46:50,484 log 32240 25520 Not Found: /i
+WARNING 2023-03-19 21:46:50,486 basehttp 32240 25520 "HEAD /i HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,488 basehttp 32240 25520 - Broken pipe from ('127.0.0.1', 63896)
+WARNING 2023-03-19 21:46:50,508 log 32240 7380 Not Found: /n
+WARNING 2023-03-19 21:46:50,510 basehttp 32240 7380 "HEAD /n HTTP/1.1" 404 4775
+INFO 2023-03-19 21:46:50,512 basehttp 32240 7380 - Broken pipe from ('127.0.0.1', 63897)
+INFO 2023-03-19 21:46:50,521 basehttp 32240 8412 "HEAD // HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:07,821 basehttp 32240 20668 "GET /accounts/login HTTP/1.1" 301 0
+INFO 2023-03-19 21:50:07,866 basehttp 32240 20668 "GET /accounts/login/ HTTP/1.1" 200 3675
+WARNING 2023-03-19 21:50:07,928 basehttp 32240 20668 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:50:20,619 basehttp 32240 32812 "GET / HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:20,665 basehttp 32240 32812 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-19 21:50:20,784 basehttp 32240 32812 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:50:28,625 basehttp 32240 34216 "GET /tasks_all/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:28,644 basehttp 32240 34216 "GET /accounts/login/?next=/tasks_all/ HTTP/1.1" 200 3819
+WARNING 2023-03-19 21:50:28,690 basehttp 32240 34216 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:50:30,647 basehttp 32240 26324 "GET /projects/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:30,668 basehttp 32240 26324 "GET /accounts/login/?next=/projects/ HTTP/1.1" 200 3818
+WARNING 2023-03-19 21:50:30,721 basehttp 32240 26324 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:50:31,496 basehttp 32240 24220 "GET /sprints/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:31,516 basehttp 32240 24220 "GET /accounts/login/?next=/sprints/ HTTP/1.1" 200 3817
+WARNING 2023-03-19 21:50:31,563 basehttp 32240 24220 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 21:50:32,248 basehttp 32240 25580 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:32,408 basehttp 32240 25580 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-19 21:50:34,550 basehttp 32240 25580 "GET /accounts/login/?next=/sprints/ HTTP/1.1" 200 3817
+INFO 2023-03-19 21:50:36,046 basehttp 32240 25580 "GET / HTTP/1.1" 302 0
+INFO 2023-03-19 21:50:36,068 basehttp 32240 25580 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-19 21:50:36,174 basehttp 32240 25580 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:03:41,574 autoreload 32240 14824 D:\Python\Task_Manager\task_manager_project\task_manager_app\serializers.py changed, reloading.
+INFO 2023-03-19 22:03:45,768 autoreload 20112 2604 Watching for file changes with StatReloader
+INFO 2023-03-19 22:06:24,128 autoreload 30860 23260 Watching for file changes with StatReloader
+INFO 2023-03-19 22:06:38,254 basehttp 30860 14024 "GET / HTTP/1.1" 302 0
+INFO 2023-03-19 22:06:38,338 basehttp 30860 14024 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-19 22:06:38,521 basehttp 30860 14024 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:06:48,928 basehttp 30860 22892 "POST /accounts/login/ HTTP/1.1" 200 3970
+WARNING 2023-03-19 22:06:48,972 basehttp 30860 22892 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:06:59,816 basehttp 30860 32060 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-03-19 22:07:00,020 basehttp 30860 32060 "GET / HTTP/1.1" 200 10074
+WARNING 2023-03-19 22:07:00,128 basehttp 30860 32060 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:16,713 basehttp 30860 33408 "GET /task_delete/15/delete HTTP/1.1" 200 3357
+WARNING 2023-03-19 22:07:16,841 basehttp 30860 33408 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:18,865 basehttp 30860 20256 "POST /task_delete/15/delete HTTP/1.1" 302 0
+INFO 2023-03-19 22:07:18,982 basehttp 30860 20256 "GET /tasks/ HTTP/1.1" 200 8657
+WARNING 2023-03-19 22:07:19,068 basehttp 30860 20256 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:24,273 basehttp 30860 20860 "GET /tasks/ HTTP/1.1" 200 8657
+WARNING 2023-03-19 22:07:24,312 basehttp 30860 20860 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:28,512 basehttp 30860 25912 "GET /task_delete/14/delete HTTP/1.1" 200 3357
+WARNING 2023-03-19 22:07:28,577 basehttp 30860 25912 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:30,485 basehttp 30860 15764 "POST /task_delete/14/delete HTTP/1.1" 302 0
+INFO 2023-03-19 22:07:30,600 basehttp 30860 15764 "GET /tasks/ HTTP/1.1" 200 7240
+WARNING 2023-03-19 22:07:30,680 basehttp 30860 15764 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:33,456 basehttp 30860 16528 "GET /task/8/edit HTTP/1.1" 200 6043
+WARNING 2023-03-19 22:07:33,578 basehttp 30860 16528 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:37,191 basehttp 30860 20456 "POST /task/8/edit HTTP/1.1" 302 0
+INFO 2023-03-19 22:07:37,312 basehttp 30860 20456 "GET /tasks/ HTTP/1.1" 200 7260
+WARNING 2023-03-19 22:07:37,396 basehttp 30860 20456 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:44,207 basehttp 30860 31404 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 22:07:44,342 basehttp 30860 31404 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:45,179 basehttp 30860 6988 "GET / HTTP/1.1" 200 7260
+WARNING 2023-03-19 22:07:45,302 basehttp 30860 6988 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:50,164 basehttp 30860 22544 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 22:07:50,290 basehttp 30860 22544 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:52,010 basehttp 30860 31856 "GET / HTTP/1.1" 200 7260
+WARNING 2023-03-19 22:07:52,134 basehttp 30860 31856 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:54,313 basehttp 30860 13104 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 22:07:54,367 basehttp 30860 13104 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:56,142 basehttp 30860 28352 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-19 22:07:56,257 basehttp 30860 28352 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:57,786 basehttp 30860 28848 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 22:07:57,911 basehttp 30860 28848 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:07:59,964 basehttp 30860 18712 "GET /sprint/3/edit HTTP/1.1" 200 4404
+WARNING 2023-03-19 22:08:00,039 basehttp 30860 18712 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:08:07,546 basehttp 30860 20852 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-19 22:08:07,600 basehttp 30860 20852 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:08:09,018 basehttp 30860 32444 "GET /project/2/edit HTTP/1.1" 200 4323
+WARNING 2023-03-19 22:08:09,146 basehttp 30860 32444 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:08:16,973 basehttp 30860 15436 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 22:08:17,030 basehttp 30860 15436 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:08:18,755 basehttp 30860 18520 "GET /task/1/edit HTTP/1.1" 200 6009
+WARNING 2023-03-19 22:08:18,876 basehttp 30860 18520 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 22:08:23,435 basehttp 30860 31120 "GET / HTTP/1.1" 200 7260
+WARNING 2023-03-19 22:08:23,554 basehttp 30860 31120 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:28,061 autoreload 33664 21656 Watching for file changes with StatReloader
+INFO 2023-03-19 23:53:34,715 basehttp 33664 25752 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:53:35,026 basehttp 33664 25752 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:35,958 basehttp 33664 28440 "GET / HTTP/1.1" 200 7260
+WARNING 2023-03-19 23:53:36,052 basehttp 33664 28440 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:37,860 basehttp 33664 12356 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:53:37,917 basehttp 33664 12356 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:38,749 basehttp 33664 14240 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-19 23:53:38,819 basehttp 33664 14240 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:39,785 basehttp 33664 9892 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:53:39,853 basehttp 33664 9892 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:53:40,799 basehttp 33664 10576 "GET /admin/ HTTP/1.1" 200 2555
+WARNING 2023-03-19 23:53:51,402 log 33664 34384 Forbidden (Permission denied): /admin/task_manager_app/taskmodel/
+Traceback (most recent call last):
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 1929, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-03-19 23:53:51,536 basehttp 33664 34384 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 403 135
+WARNING 2023-03-19 23:53:53,104 log 33664 34384 Forbidden (Permission denied): /admin/task_manager_app/projectmodel/
+Traceback (most recent call last):
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 1929, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-03-19 23:53:53,112 basehttp 33664 34384 "GET /admin/task_manager_app/projectmodel/? HTTP/1.1" 403 135
+INFO 2023-03-19 23:53:58,510 basehttp 33664 34384 "GET /admin/ HTTP/1.1" 200 2555
+INFO 2023-03-19 23:53:59,293 basehttp 33664 34384 "GET /admin/ HTTP/1.1" 200 2555
+INFO 2023-03-19 23:54:08,984 basehttp 33664 33808 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-19 23:54:14,264 basehttp 33664 27892 "GET / HTTP/1.1" 302 0
+INFO 2023-03-19 23:54:14,313 basehttp 33664 27892 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-19 23:54:14,380 basehttp 33664 27892 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:54:25,581 basehttp 33664 21352 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-03-19 23:54:25,674 basehttp 33664 21352 "GET / HTTP/1.1" 200 4260
+WARNING 2023-03-19 23:54:25,722 basehttp 33664 21352 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:54:30,568 basehttp 33664 23764 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:54:30,639 basehttp 33664 23764 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:54:32,918 basehttp 33664 13544 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-19 23:54:33,027 basehttp 33664 13544 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:54:34,436 basehttp 33664 22084 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:54:34,543 basehttp 33664 22084 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:54:40,271 basehttp 33664 24208 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-19 23:54:52,221 basehttp 33664 21372 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-19 23:54:56,130 basehttp 33664 21372 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-19 23:54:56,155 basehttp 33664 21372 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-19 23:55:02,459 basehttp 33664 26012 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-03-19 23:55:02,559 basehttp 33664 26012 "GET /admin/ HTTP/1.1" 200 9086
+INFO 2023-03-19 23:55:04,910 basehttp 33664 26012 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 8381
+INFO 2023-03-19 23:55:10,604 basehttp 33664 26012 "GET /admin/authtoken/tokenproxy/add/ HTTP/1.1" 200 8457
+INFO 2023-03-19 23:55:10,810 basehttp 33664 26012 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-19 23:55:26,112 basehttp 33664 23144 "GET /admin/auth/user/4/change/?_to_field=id HTTP/1.1" 200 19537
+INFO 2023-03-19 23:55:26,179 basehttp 33664 3544 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2023-03-19 23:55:26,182 basehttp 33664 34192 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2023-03-19 23:55:26,252 basehttp 33664 23144 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-19 23:55:26,361 basehttp 33664 23144 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2023-03-19 23:55:26,378 basehttp 33664 23144 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2023-03-19 23:55:26,378 basehttp 33664 34192 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2023-03-19 23:55:29,256 basehttp 33664 34192 "GET /admin/authtoken/tokenproxy/add/ HTTP/1.1" 200 8457
+INFO 2023-03-19 23:55:31,172 basehttp 33664 34192 "POST /admin/authtoken/tokenproxy/add/ HTTP/1.1" 302 0
+INFO 2023-03-19 23:55:31,273 basehttp 33664 34192 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 8853
+INFO 2023-03-19 23:55:39,812 basehttp 33664 11180 "GET /admin/ HTTP/1.1" 200 9071
+INFO 2023-03-19 23:55:47,405 basehttp 33664 35120 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-19 23:55:47,456 basehttp 33664 35120 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:50,993 basehttp 33664 8964 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:55:51,060 basehttp 33664 8964 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:52,244 basehttp 33664 26176 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-19 23:55:52,314 basehttp 33664 26176 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:53,472 basehttp 33664 35612 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:55:53,599 basehttp 33664 35612 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:54,545 basehttp 33664 34936 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-19 23:55:54,672 basehttp 33664 34936 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:55,345 basehttp 33664 32868 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:55:55,461 basehttp 33664 32868 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:55:56,412 basehttp 33664 20860 "GET /admin/ HTTP/1.1" 200 9071
+INFO 2023-03-19 23:56:02,386 basehttp 33664 29984 "GET /tasks/ HTTP/1.1" 200 4362
+WARNING 2023-03-19 23:56:02,474 basehttp 33664 29984 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2023-03-19 23:56:03,926 log 33664 29860 Unauthorized: /api/tasks/
+WARNING 2023-03-19 23:56:03,930 basehttp 33664 29860 "GET /api/tasks/ HTTP/1.1" 401 5178
+WARNING 2023-03-19 23:56:09,006 basehttp 33664 29860 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:21,389 basehttp 33664 10824 "GET /sprint/3/edit HTTP/1.1" 200 4404
+WARNING 2023-03-19 23:56:21,533 basehttp 33664 10824 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:29,081 basehttp 33664 29212 "POST /sprint/3/edit HTTP/1.1" 302 0
+INFO 2023-03-19 23:56:29,176 basehttp 33664 29212 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:56:29,239 basehttp 33664 29212 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:31,036 basehttp 33664 35312 "GET /sprint/3/edit HTTP/1.1" 200 4404
+WARNING 2023-03-19 23:56:31,171 basehttp 33664 35312 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:32,396 basehttp 33664 23476 "POST /sprint/3/edit HTTP/1.1" 302 0
+INFO 2023-03-19 23:56:32,531 basehttp 33664 23476 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:56:32,585 basehttp 33664 23476 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:34,190 basehttp 33664 22536 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:56:34,280 basehttp 33664 22536 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:38,755 basehttp 33664 14708 "GET /sprint/1/edit HTTP/1.1" 200 4392
+WARNING 2023-03-19 23:56:38,823 basehttp 33664 14708 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:45,396 basehttp 33664 19020 "POST /sprint/1/edit HTTP/1.1" 302 0
+INFO 2023-03-19 23:56:45,500 basehttp 33664 19020 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-19 23:56:45,580 basehttp 33664 19020 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:47,785 basehttp 33664 16520 "GET /tasks_all/ HTTP/1.1" 200 13865
+WARNING 2023-03-19 23:56:47,906 basehttp 33664 16520 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:56:49,862 basehttp 33664 31216 "GET /task/1/edit HTTP/1.1" 200 6009
+WARNING 2023-03-19 23:56:49,925 basehttp 33664 31216 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:57:03,328 basehttp 33664 6960 "POST /task/1/edit HTTP/1.1" 302 0
+INFO 2023-03-19 23:57:03,415 basehttp 33664 6960 "GET /tasks/ HTTP/1.1" 200 4362
+WARNING 2023-03-19 23:57:03,542 basehttp 33664 6960 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-19 23:57:42,352 basehttp 33664 27360 "GET /admin/ HTTP/1.1" 200 9071
+INFO 2023-03-20 00:59:48,154 autoreload 16064 15536 Watching for file changes with StatReloader
+INFO 2023-03-20 01:00:26,700 basehttp 16064 25444 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-20 01:00:26,961 basehttp 16064 25444 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+WARNING 2023-03-20 01:00:27,052 log 16064 16732 Not Found: /favicon.ico
+WARNING 2023-03-20 01:00:27,054 basehttp 16064 16732 "GET /favicon.ico HTTP/1.1" 404 4804
+INFO 2023-03-20 01:00:29,635 basehttp 16064 16732 "GET /admin/ HTTP/1.1" 200 9071
+INFO 2023-03-20 01:00:31,257 basehttp 16064 16732 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-20 01:00:35,565 basehttp 16064 35340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-20 01:00:35,801 basehttp 16064 35340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-20 01:00:40,292 basehttp 16064 35340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-03-20 01:00:40,316 basehttp 16064 35340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2023-03-20 01:00:42,413 basehttp 16064 35340 "GET / HTTP/1.1" 302 0
+INFO 2023-03-20 01:00:42,442 basehttp 16064 35340 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-20 01:00:42,494 basehttp 16064 35340 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:05:20,486 basehttp 16064 15428 "POST /accounts/login/ HTTP/1.1" 200 3970
+WARNING 2023-03-20 01:05:20,537 basehttp 16064 15428 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:05:30,243 basehttp 16064 14952 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-03-20 01:05:30,438 basehttp 16064 14952 "GET / HTTP/1.1" 200 4260
+WARNING 2023-03-20 01:05:30,472 basehttp 16064 14952 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:06:19,548 basehttp 16064 28808 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 01:06:19,610 basehttp 16064 28808 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:06:20,774 basehttp 16064 18640 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-20 01:06:20,852 basehttp 16064 18640 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:06:27,592 basehttp 16064 16476 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 01:06:27,641 basehttp 16064 16476 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:06:31,010 basehttp 16064 15816 "GET / HTTP/1.1" 200 4260
+WARNING 2023-03-20 01:06:31,074 basehttp 16064 15816 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:06:32,664 basehttp 16064 18372 "GET /task/13/edit HTTP/1.1" 200 5980
+WARNING 2023-03-20 01:06:32,723 basehttp 16064 18372 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:07:36,140 basehttp 16064 19972 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-20 01:07:36,218 basehttp 16064 19972 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:07:40,283 basehttp 16064 6728 "GET /project/2/edit HTTP/1.1" 200 4323
+WARNING 2023-03-20 01:07:40,345 basehttp 16064 6728 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:08:55,866 basehttp 16064 20224 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-20 01:08:55,935 basehttp 16064 20224 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:09:00,733 basehttp 16064 13000 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-20 01:09:08,633 basehttp 16064 13000 "GET /admin/task_manager_app/taskmodel/ HTTP/1.1" 200 15124
+INFO 2023-03-20 01:09:08,775 basehttp 16064 13000 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-20 01:09:55,420 basehttp 16064 13000 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-20 01:09:58,944 basehttp 16064 13000 "GET / HTTP/1.1" 200 4260
+WARNING 2023-03-20 01:09:59,005 basehttp 16064 13000 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:10:39,837 basehttp 16064 15940 "GET //api/tasks/ HTTP/1.1" 200 1364
+INFO 2023-03-20 01:12:13,388 basehttp 16064 15940 "GET //api/tasks/?task=auth&ordering=-id HTTP/1.1" 200 634
+INFO 2023-03-20 01:12:46,074 basehttp 16064 15940 "GET //api/tasks/?page=1&task=auth&ordering=-id HTTP/1.1" 200 634
+WARNING 2023-03-20 01:12:55,959 log 16064 15940 Not Found: /api/tasks/
+WARNING 2023-03-20 01:12:55,962 basehttp 16064 15940 "GET //api/tasks/?page=2&task=auth&ordering=-id HTTP/1.1" 404 26
+INFO 2023-03-20 01:13:02,457 basehttp 16064 15940 "GET //api/tasks/?page=1&task=auth&ordering=-id HTTP/1.1" 200 634
+INFO 2023-03-20 01:16:39,792 basehttp 16064 10048 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 01:16:39,848 basehttp 16064 10048 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:16:43,171 basehttp 16064 17032 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-20 01:16:43,234 basehttp 16064 17032 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 01:16:45,168 basehttp 16064 21372 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-20 17:06:31,069 autoreload 35188 28348 Watching for file changes with StatReloader
+WARNING 2023-03-20 17:06:55,547 log 35188 36224 Forbidden (Permission denied): /admin/authtoken/tokenproxy/
+Traceback (most recent call last):
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Task_Manager\venv\Lib\site-packages\django\contrib\admin\options.py", line 1929, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-03-20 17:06:55,629 basehttp 35188 36224 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 403 135
+INFO 2023-03-20 17:06:58,255 basehttp 35188 36224 "GET /admin/ HTTP/1.1" 200 5275
+INFO 2023-03-20 17:07:03,066 basehttp 35188 36224 "GET /admin/auth/user/ HTTP/1.1" 200 11684
+INFO 2023-03-20 17:07:03,195 basehttp 35188 36224 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-20 17:07:06,681 basehttp 35188 36224 "POST /admin/logout/ HTTP/1.1" 200 1549
+INFO 2023-03-20 17:07:08,587 basehttp 35188 36224 "GET /tasks/ HTTP/1.1" 302 0
+INFO 2023-03-20 17:07:08,943 basehttp 35188 36224 "GET /accounts/login/?next=/tasks/ HTTP/1.1" 200 3815
+WARNING 2023-03-20 17:07:09,207 basehttp 35188 36224 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:16,757 basehttp 35188 31492 "GET / HTTP/1.1" 302 0
+INFO 2023-03-20 17:07:16,813 basehttp 35188 31492 "GET /accounts/login/?next=/ HTTP/1.1" 200 3809
+WARNING 2023-03-20 17:07:16,876 basehttp 35188 31492 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:24,494 basehttp 35188 28536 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-03-20 17:07:24,634 basehttp 35188 28536 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-20 17:07:24,689 basehttp 35188 28536 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:27,583 basehttp 35188 8984 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 17:07:27,643 basehttp 35188 8984 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:29,339 basehttp 35188 20324 "GET /projects/ HTTP/1.1" 200 4330
+INFO 2023-03-20 17:07:29,340 basehttp 35188 15352 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-20 17:07:29,418 basehttp 35188 20324 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:30,429 basehttp 35188 35724 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-20 17:07:30,500 basehttp 35188 35724 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:32,478 basehttp 35188 33148 "GET /admin/ HTTP/1.1" 200 9071
+INFO 2023-03-20 17:07:32,542 basehttp 35188 33148 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-03-20 17:07:38,049 basehttp 35188 33148 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 17:07:38,108 basehttp 35188 33148 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:39,327 basehttp 35188 20604 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-20 17:07:39,393 basehttp 35188 20604 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:41,450 basehttp 35188 36872 "GET /tasks_all/ HTTP/1.1" 200 13840
+WARNING 2023-03-20 17:07:41,567 basehttp 35188 36872 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:42,336 basehttp 35188 12024 "GET /projects/ HTTP/1.1" 200 4330
+WARNING 2023-03-20 17:07:42,397 basehttp 35188 12024 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:43,355 basehttp 35188 4152 "GET /sprints/ HTTP/1.1" 200 4462
+WARNING 2023-03-20 17:07:43,447 basehttp 35188 4152 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:07:59,847 basehttp 35188 23276 "GET / HTTP/1.1" 200 4362
+WARNING 2023-03-20 17:07:59,911 basehttp 35188 23276 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:08:02,734 basehttp 35188 35968 "GET /task/11/edit HTTP/1.1" 200 5976
+WARNING 2023-03-20 17:08:02,801 basehttp 35188 35968 "GET /static/admin/js/theme.js HTTP/1.1" 404 1810
+INFO 2023-03-20 17:08:18,745 basehttp 35188 36800 "GET /admin/auth/user/ HTTP/1.1" 200 12229
+INFO 2023-03-20 17:08:18,872 basehttp 35188 36800 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-03-20 17:08:23,318 basehttp 35188 36800 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 8615
+INFO 2023-03-20 17:08:27,772 basehttp 35188 36800 "GET /admin/auth/user/ HTTP/1.1" 200 12229
+INFO 2023-03-20 17:08:29,582 basehttp 35188 36800 "POST /admin/logout/ HTTP/1.1" 200 1549

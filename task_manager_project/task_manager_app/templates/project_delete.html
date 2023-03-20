@@ -1,0 +1,9 @@
+{% extends 'base_.html' %}
+
+{% block content %}
+    <h1> Удалить проект </h1>
+    <form action="" method="post">{% csrf_token %}
+      <p>Вы действительно хотите удалить проект "{{ project_del.task }}"?</p>
+      <input type="submit" value="Подтвердить удаление" />
+    </form>
+{% endblock content %}

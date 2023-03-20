@@ -1,0 +1,19 @@
+{% extends 'base_.html' %}
+
+{% block content %}
+<a href='{% url 'sprint_crt' %}' class="btn"> <button> Создать спринт </button></a>
+    {% for tsk in sprints_ %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title"> {{ tsk.sprint }}</h4>
+                
+                <p class="card-text">Старт спринта: {{ tsk.sprint_start }} </p>
+                <p class="card-text">Завершение спринта: {{ tsk.sprint_end }} </p>
+                <p class="card-text">Проект: {{ tsk.sprint_project }} </p>
+                <a href='{% url 'sprint_edit' tsk.id %}' class="btn"> <button> Редактировать спринт </button></a>
+                <a href='{% url 'sprint_delete' tsk.id %}' class="btn"> <button> Удалить спринт </button></a>
+            </div>
+        </div>
+        
+    {% endfor %}
+{% endblock content %}
